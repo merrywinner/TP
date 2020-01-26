@@ -12,7 +12,7 @@ pipeline {
 
     stage('Mail') {
       steps {
-        mail(subject: 'mail notification', to: 'merry.nonim@gmail.com', body: 'lkjhgfdsftyuiop')
+        mail(subject: 'mail notification', to: 'merry.nonim@gmail.com', body: 'lkjhgfdsftyuiop', replyTo: 'merry.nonim@gmail.com')
       }
     }
 
