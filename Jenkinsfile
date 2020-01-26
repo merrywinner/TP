@@ -19,7 +19,7 @@ pipeline {
     stage('code analysis') {
       steps {
         withSonarQubeEnv('sonar') {
-          bat 'gradle sonarQube'
+          bat 'D:\\gradle-6.0.1\\bin\\gradle sonarQube'
         }
 
       }
