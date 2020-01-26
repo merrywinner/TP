@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        bat 'D:\\gradle-6.0.1\\bin\\gradle build'
+        bat 'D:\\\\gradle-6.0.1\\\\bin\\\\gradle build'
       }
     }
 
