@@ -25,5 +25,11 @@ pipeline {
       }
     }
 
+    stage('jacoco') {
+      steps {
+        jacoco()
+      }
+    }
+
   }
 }
