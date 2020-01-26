@@ -10,5 +10,11 @@ pipeline {
       }
     }
 
+    stage('Mail') {
+      steps {
+        mail(subject: 'mail notification', to: 'gm_yousfi@esi.dz', body: '%Mlkjhytrezertyukilompù^')
+      }
+    }
+
   }
 }
