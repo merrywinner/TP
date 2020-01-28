@@ -24,7 +24,6 @@ pipeline {
               bat 'D:\\gradle-6.0.1\\bin\\gradle sonarQube'
             }
 
-            waitForQualityGate true
           }
         }
 
