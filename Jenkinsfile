@@ -50,7 +50,7 @@ pipeline {
 
     stage('slack') {
       steps {
-        slackSend(baseUrl: 'https://hooks.slack.com/services/', channel: 'general', message: 'blabla is sending!', token: 'TRRNQTS4X/BSWF21YG3/NEuc7ZqaQLRTtV9wiBmZNK1Z', teamDomain: 'yousfimeriem', attachments: 'attachements', blocks: 'blocks', username: 'YOUSFI Meriem', color: 'danger')
+        slackSend(baseUrl: 'https://hooks.slack.com/services/', channel: 'general', message: 'blabla is sending!', token: 'TRRNQTS4X/BSWF21YG3/NEuc7ZqaQLRTtV9wiBmZNK1Z', teamDomain: 'yousfimeriem', color: 'danger')
       }
     }
 
